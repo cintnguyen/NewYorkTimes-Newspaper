@@ -1,0 +1,478 @@
+/* core layout start*/
+*{
+    box-sizing:border-box;
+}
+
+header{
+
+    font-family:"lato";
+}
+
+main{
+    display:flex;
+}
+
+.left{
+
+    width:70%;
+    border-right:.5px solid gray;
+}
+
+.right{
+
+    width:30%;
+}
+
+/* core layout end */
+
+
+
+
+/* header layout */
+
+.topheader, .middleheader{
+
+    display:flex;
+    justify-content: space-between;
+}
+
+.middleheader{
+    height:120px;
+}
+
+.topheader{
+    height:30px;
+    align-items:center;
+}
+
+.usnav ul{
+    display:flex;
+    margin:0;
+}
+
+.worldnav ul{
+    display:flex;
+    margin:0;
+    justify-content:center;
+    align-items:center;
+    height:40px;
+}
+
+
+/* header layout end */
+
+
+
+
+/* top header style */
+.icons a{
+    text-decoration:none;
+    color:gray;
+    margin:15px;
+}
+
+.usnav{
+    margin-left:200px;
+}
+
+.usnav a{
+    text-decoration:none;
+    color:black;
+}
+
+.usnav li{
+    padding:0 10px;
+    list-style-type:none;
+    font-size:10px;
+
+}
+
+.subscribe button{
+    background:rgb(95, 122, 147);
+    border-radius:4px;
+    margin-right:20px;
+    padding:10px;
+}
+.subscribe a{
+    color:white;
+    text-decoration:none;
+}
+
+/* topheader end */
+
+
+
+
+/* middle header start */
+.middleheader{
+    align-items:center;
+    height:100px;
+    border-bottom:.5px solid gray;
+}
+
+
+.date h4{
+    margin:0;
+    font:"lato",serif;
+}
+
+.date h4 + h4{
+    font-size:.8rem;
+}
+
+.nyt img{
+    height:80px;
+}
+
+.weather img{
+    height:70px;
+}
+
+/* middle header end */
+
+
+/* bottom header start */
+.worldnav{
+    border-bottom:1px solid black;
+}
+
+.line{
+    height:4px;
+    border-bottom:1px solid black;
+}
+.worldnav li{
+    list-style-type:none;
+    margin:5px;
+    font-size:15px;
+}
+
+.worldnav a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+/* bottom header end */
+
+
+/* main moscow layout start */
+
+.moscow{
+    margin:18px;
+    border-bottom:.5px solid gray;
+    display:flex;
+}
+
+.moscowleft{
+    width:40%;
+}
+
+.moscowright{
+    width: 60%;
+}
+/* main moscow layout end */
+
+
+/* moscow left start */
+
+.moscowleft {
+    padding-right:20px;
+    padding-bottom:20px;
+}
+.moscowleft .one, .two{
+    border-bottom: .5px solid lightgray;
+    padding-bottom:10px;
+}
+
+.moscowleft section p{
+    margin-bottom:5px;
+    color:gray;
+
+}
+
+.one h2, .two h2{
+    margin-bottom:10px;
+}
+
+.one p, .two p{
+    margin-top:0;
+}
+
+.moscowleft .three p{
+    margin-top:0;
+}
+
+.moscowleft span{
+    font-size:12px;
+    color:gray;
+}
+
+.moscowleft .two h2{
+    font-size:20px;
+}
+
+.moscowleft .three h2{
+    font-size:15px;
+    font-weight:600px;
+}
+
+/* moscow left end */
+
+
+
+/* moscow right start */
+
+.moscow img{
+    width:100%;
+    object-fit:contain;
+
+}
+
+.dots, .rightleft{
+    display:inline;
+    
+}
+
+.moscowright a{
+    text-decoration:none;
+    font-size:35px;
+    color:gray;
+}
+
+.dots{
+    margin-left:250px;
+}
+
+.dots a{
+    font-size:50px;
+}
+
+.rightleft{
+    float:right;
+}
+
+/* moscow right end */
+
+
+/* bottom start */
+
+.bottom{
+    display:flex;
+}
+
+.bottomleft{
+    width:40%;
+}
+
+.bottomright{
+    width:60%;
+}
+
+.bottomleft{
+    margin:18px;
+}
+
+
+.bottomleft h2{
+    margin-bottom:0;
+}
+.bottomleft p{
+    margin:5px 0;
+    color:gray;
+}
+.bottomleft span{
+    font-size:12px;
+    color:gray;
+}
+
+.talk {
+    border-bottom:.5px solid lightgray;
+    padding-bottom:20px;
+}
+.bottomleft .emoji h2{
+    font-size:20px;
+}
+
+
+.bottomright img{
+    width:100%;
+    object-fit:contain;
+    padding:20px 20px 0 0;
+}
+
+.bottomright span{
+    font-size:10px;
+    float:right;
+    padding:0 20px 40px 0;
+}
+/* bottom end */
+
+
+/* righttop start */
+.right>section{
+    margin:18px;
+}
+
+.righttop img{
+    object-fit:contain;
+    height:275px;
+    width:100%;
+}
+
+
+.righttop h2, .righttop p{
+    margin:0;
+}
+
+.righttop h2{
+    padding-bottom:4px;
+}
+
+.righttop p{
+    color:gray;
+}
+
+.right>section{
+    padding-bottom:15px;
+    border-bottom:.5px solid gray;
+}
+
+/* righttop end */
+
+/* rightmiddle start */
+
+.rightmiddle{
+    display:flex;
+}
+
+
+.rightmiddle img{
+    object-fit: contain;
+    width:100%;
+}
+
+.pasta{
+    padding-right:18px;
+    border-right:.5px solid gray;
+}
+
+.plant{
+    padding-left:18px;
+}
+
+.rightmiddle h3{
+    margin-bottom:5px;
+}
+
+.rightmiddle span{
+    font-size:12px;
+    color:gray;
+}
+
+/* rightmiddle end */
+
+/* rightbottom start */
+.bottomtop, .bottombottom{
+    display:flex;
+}
+
+.bottomtop{
+    border-bottom:.5px solid gray;
+}
+
+.charles, .pamela{
+    width:70%;
+}
+
+.man, .jkrowling{
+    width:30%;
+}
+
+.jkrowling img{
+    object-fit: contain;
+    padding-top:18px;
+    width:100%;
+}
+
+.rightbottom h4{
+    margin-bottom:0;
+    color:gray;
+}
+
+.rightbottom h3{
+    margin:0;
+}
+
+.rightbottom span{
+    font-size:12px;
+    color:gray;
+}
+
+.pamela h3{
+    font-size:25px;
+}
+
+
+@media (max-width:1250px){
+    .m, .dots, .rightleft{
+        display:none;
+    }
+
+}
+
+@media(max-width:1100px){
+    .right, .subscribe{
+        display:none;
+    }
+    .left{
+        width:100%;
+    }
+}
+
+@media(max-width:945px){
+    .date, .weather img, .usnav{
+        display:none;
+    }
+    .middleheader{
+        justify-content:center;
+    }
+}
+
+
+@media (max-width:795px){
+    .compcaption{
+        display:none;
+    }
+
+    .moscow, .bottom{
+        display:block;
+    }
+
+    .moscowleft, .bottomleft{
+        width:100%;
+    }
+    .moscow .moscowleft section, .bottomleft section{
+        width:100;
+    }
+
+    .moscowright, .bottomright{
+        width:100%;
+    }
+
+    .bottomright img{
+        margin-left:18px;
+    }
+    .left{
+        border:none;
+    }
+}
+
+@media(max-width:740px){
+    .s{
+        display:none;
+    }
+}
+@media(max-width:600px){
+    .worldnav{
+        display:none;
+    }
+}
